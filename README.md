@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# React Resume - Tymofii Shkandiuk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive resume built with React and TypeScript, showcasing my professional experience, skills, and projects as a Full Stack Web Developer.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+[View Live Resume](https://your-resume-url.netlify.app) *(Update after deployment)*
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Modern Tech Stack**: Built with React, TypeScript, and CSS Modules
+- **Responsive Design**: Optimized for desktop and mobile viewing
+- **Component Architecture**: Modular, maintainable codebase following React best practices
+- **Continuous Deployment**: Auto-deploys from GitHub via Netlify
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+```
+src/
+├── components/
+│   ├── common/          # Shared components
+│   │   └── ListRenderer.tsx
+│   ├── Layout/          # Layout wrapper
+│   ├── Sidebar/         # Sidebar sections
+│   │   ├── index.tsx
+│   │   ├── Profile.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Education.tsx
+│   │   └── Hobbies.tsx
+│   └── MainContent/     # Main content sections
+│       ├── index.tsx
+│       ├── About.tsx
+│       ├── Experience.tsx
+│       └── Projects.tsx
+├── data/
+│   └── resumeData.ts    # Resume data source
+└── index.css            # Global styles & CSS variables
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Customization
 
-### `npm run build`
+To customize with your own information:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Edit `src/data/resumeData.ts` with your personal information
+2. Replace `public/profile.jpg` with your photo
+3. Update colors in `src/index.css` CSS variables
+4. Modify component styles in respective `.module.css` files
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is configured for deployment on Netlify:
 
-### `npm run eject`
+1. Push to GitHub
+2. Connect repository to Netlify
+3. Netlify auto-detects build settings from `netlify.toml`
+4. Continuous deployment triggers on every commit to `main`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Build Settings (configured in netlify.toml)
+- **Build command**: `npm run build`
+- **Publish directory**: `build`
+- **Node version**: 16+
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📄 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 👤 Author
 
-## Learn More
+**Tymofii Shkandiuk**
+- GitHub: [@amiti-17](https://github.com/amiti-17)
+- LinkedIn: [Tymofii Shkandiuk](https://www.linkedin.com/in/97706971)
+- Email: timjobit@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

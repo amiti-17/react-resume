@@ -1,6 +1,14 @@
 {
-  "name": "react-resume",
+  "name": "react-resume-tymofii-shkandiuk",
   "version": "0.1.0",
+  "description": "Modern, responsive resume built with React and TypeScript showcasing professional experience and skills",
+  "author": "Tymofii Shkandiuk <timjobit@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amiti-17/react-resume.git"
+  },
+  "homepage": "https://github.com/amiti-17/react-resume",
   "private": true,
   "dependencies": {
     "@types/node": "^16.18.126",
