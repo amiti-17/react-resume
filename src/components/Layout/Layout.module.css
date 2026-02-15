@@ -1,0 +1,27 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--body-bg);
+  /* Outer background for large screens */
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  /* Sidebar width fixed, main content flexible */
+  width: 100%;
+  max-width: 1000px;
+  /* Limit width for readability on large screens */
+  background-color: var(--main-bg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    /* Stack on mobile */
+  }
+}
