@@ -9,7 +9,7 @@ interface ProfileProps {
 const Profile: React.FC<ProfileProps> = ({ name, title }) => (
     <div className={styles.profile}>
         <div className={styles.avatarContainer}>
-            <img src="/profile.jpg" alt={name} className={styles.avatar} />
+            <img src={process.env.PUBLIC_URL + '/profile.jpg'} alt={name} className={styles.avatar} />
         </div>
         <h1 className={styles.name}>{name}</h1>
         <h2 className={styles.title}>{title}</h2>
