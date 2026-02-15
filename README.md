@@ -4,7 +4,7 @@ A modern, responsive resume built with React and TypeScript, showcasing my profe
 
 ## 🚀 Live Demo
 
-[View Live Resume](https://your-resume-url.netlify.app) *(Update after deployment)*
+[View Live Resume](https://heartfelt-cheesecake-ea54e7.netlify.app)
 
 ## ✨ Features
 
